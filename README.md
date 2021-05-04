@@ -3,6 +3,7 @@ Bash backup
 this repository is made up of various scripts in bash
 to make large and small local and remote backups.
 ![immagine](https://user-images.githubusercontent.com/56889513/117017196-b2b26c00-acf3-11eb-801d-7c1dd8a2af82.png)
+![immagine](https://user-images.githubusercontent.com/56889513/117017324-cbbb1d00-acf3-11eb-8374-d52197c8a377.png)
 
 
 This article we bring shell scripts to backup your files and directories from you local Linux machine to a remote Linux server using rsync command. This would be an interactive way to perform backup, where you need to provide remote backup server hostname/ip address and folder location. We keep a separate file where you need to provide files and directories that need backup. We have added two scripts where first script ask password after each file had been copied (if you have enabled ssh authentication keys , then password will be not be asked) and in second script password will be prompted only once.
